@@ -1,0 +1,61 @@
+libpthread-stubs (0.3-5slp2) unstable; urgency=low
+
+  * [X11R7.6] upgrade package
+  * Git: 165.213.180.234:slp/pkgs/xorg/xcb/libpthread-stubs
+  * Tag: libpthread-stubs_0.3-5slp2 
+
+ -- SooChan Lim <sc1.lim@samsung.com>  Tue, 04 Jan 2011 14:36:33 +0900
+
+libpthread-stubs (0.3-4slp2) unstable; urgency=low
+
+  * Modify the changelog
+  * Git: 165.213.180.234:/git/slp/pkgs/xorg/xcb/libpthread-stubs
+  * Tag: libpthread-stubs_0.3-4slp2 
+
+ -- SooChan Lim <sc1.lim@samsung.com>  Fri, 26 Nov 2010 10:42:28 +0900
+
+libpthread-stubs (0.3-3slp2) unstable; urgency=low
+
+  * modify the package name
+
+ -- SooChan Lim <sc1.lim@samsung.com>  Thu, 25 Mar 2010 17:36:31 +0900
+
+libpthread-stubs (0.3-2) unstable; urgency=low
+
+  * Fix bogus symlink (Closes: #556222)
+
+ -- Julien Danjou <acid@debian.org>  Mon, 16 Nov 2009 09:58:11 +0100
+
+libpthread-stubs (0.3-1) unstable; urgency=low
+
+  * New upstream release
+    + Revert sem_ symbols (Closes: #548240)
+  * Move static stuff in /usr/lib (Closes: #548109)
+
+ -- Julien Danjou <acid@debian.org>  Wed, 14 Oct 2009 11:18:06 +0200
+
+libpthread-stubs (0.2-1) unstable; urgency=low
+
+  * New upstream release
+    + Provides sem function (Closes: #495229)
+  * Add myself as uploader
+  * Bump standard version
+  * Move lib into /lib (Closes: #480237)
+  * Add copyrights
+  * Fix substvars in debian/control
+
+ -- Julien Danjou <acid@debian.org>  Wed, 23 Sep 2009 10:34:09 +0200
+
+libpthread-stubs (0.1-2) unstable; urgency=low
+
+  * Add XS-Vcs-Git and XS-Vcs-Browser fields.
+  * Upload to unstable.
+
+ -- Josh Triplett <josh@freedesktop.org>  Mon, 21 May 2007 14:00:38 -0700
+
+libpthread-stubs (0.1-1) experimental; urgency=low
+
+  * Initial release.
+
+ -- Jamey Sharp <sharpone@debian.org>  Fri, 24 Nov 2006 01:01:49 -0800
+
