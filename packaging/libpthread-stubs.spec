@@ -7,6 +7,7 @@ Group:      System/X11
 License:    MIT
 URL:        http://xcb.freedesktop.org
 Source0:    http://xcb.freedesktop.org/dist/libpthread-stubs-%{version}.tar.bz2
+Source1001: packaging/libpthread-stubs.manifest 
 
 BuildRoot:  %{_tmppath}/%{name}-%{version}-build
 
@@ -20,6 +21,7 @@ PThread Stubs for XCB
 
 
 %build
+cp %{SOURCE1001} .
 
 %configure --disable-static
 # Call make instruction with smp support
@@ -41,6 +43,7 @@ rm -rf %{buildroot}
 
 
 %files
+%manifest libpthread-stubs.manifest
 %defattr(-,root,root,-)
 %{_libdir}/pkgconfig/pthread-stubs.pc
 
