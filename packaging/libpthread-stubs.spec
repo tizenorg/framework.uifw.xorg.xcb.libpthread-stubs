@@ -27,6 +27,8 @@ make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/license
+cp -af COPYING %{buildroot}/usr/share/license/%{name}
 %make_install
 
 
@@ -43,4 +45,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %{_libdir}/pkgconfig/pthread-stubs.pc
-
+/usr/share/license/%{name}
